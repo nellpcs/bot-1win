@@ -62,4 +62,4 @@ def handle_verify(call):
 print("[SYSTEM] Bot 1WIN lancé avec succès ✅")
 print("[SYSTEM] En attente d'interactions...")
 
-bot.infinity_polling(timeout=60, long_polling_timeout=5)
+bot.infinity_polling(skip_pending=True)
